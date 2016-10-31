@@ -12,3 +12,5 @@
 * [x] Make a snippets document in a dedicated git repository
 * [ ] Add a hint about navigation usage on the title page
 * [ ] Improve SEO ?
+* [ ] Use main.html or index.html ?
+* [ ] Thought about figs/logos: it is copied for each document in www.jdhp.org/docs/ (waste of space)
