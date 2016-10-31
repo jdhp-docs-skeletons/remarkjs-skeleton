@@ -1,1 +1,20 @@
+# MISC ########################################################################
+
 TODO_HTML_TMP_DIR/
+
+# COMMON ######################################################################
+
+# Vim swap files
+*.swp
+
+# Emacs temporary files
+*~
+
+# MacOSX Thumbnail files
+.DS_Store
+
+# Windows Thumbnail files
+Thumbs.db
+
+# Windows Directory parameters
+Desktop.ini
