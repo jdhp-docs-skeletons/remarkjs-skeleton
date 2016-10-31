@@ -23,7 +23,7 @@ TODO_DOCUMENT_GITHUB_REPOSITORY_NAME="TODO"     # TODO
 TODO_DOCUMENT_GITHUB_URL="https://github.com/${TODO_DOCUMENT_GITHUB_ACCOUNT}/${TODO_DOCUMENT_GITHUB_REPOSITORY_NAME}"
 TODO_DOCUMENT_ISSUE_TRACKER_URL="https://github.com/${TODO_DOCUMENT_GITHUB_ACCOUNT}/${TODO_DOCUMENT_GITHUB_REPOSITORY_NAME}/issues"
 
-TODO_DOCUMENT_WEB_SITE_URL="http://www.jdhp.org/documentation_en.html#${TODO_DOCUMENT_FILE_BASE_NAME}"
+TODO_DOCUMENT_WEB_SITE_URL="http://www.jdhp.org/documentation_fr.html#${TODO_DOCUMENT_FILE_BASE_NAME}"
 TODO_DOCUMENT_HTML_URL="http://www.jdhp.org/docs/${TODO_DOCUMENT_FILE_BASE_NAME}/${TODO_DOCUMENT_FILE_BASE_NAME}.html"
 TODO_DOCUMENT_PDF_URL="http://www.jdhp.org/dl/pdf/${TODO_DOCUMENT_FILE_BASE_NAME}.pdf"
 
@@ -34,7 +34,7 @@ TODO_HTML_TMP_DIR="html_tmp"
 
 git remote rename origin skeleton
 git remote add origin git@github.com:${TODO_DOCUMENT_GITHUB_ACCOUNT}/${TODO_DOCUMENT_GITHUB_REPOSITORY_NAME}.git
-git push -u origin english-version              # TODO
+git push -u origin french-version              # TODO
 
 
 # MAKE SUBSTITUTIONS ##########################################################
