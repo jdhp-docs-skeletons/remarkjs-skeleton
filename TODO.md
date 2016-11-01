@@ -2,6 +2,8 @@
 
 ## Skeleton
 
+* [ ] Improve the init_skeleton.sh script (add safety checks: are the variable
+      defined ? is the skeleton branch already exist ? ...)
 * [ ] Put CSS in a dedicated file
 * [ ] Split content/main.md
 * [ ] Make the French branch
