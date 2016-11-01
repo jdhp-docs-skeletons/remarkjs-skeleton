@@ -25,3 +25,4 @@
 * [ ] Use main.html or index.html ?
 * [ ] Thought about figs/logos: it is copied for each document in
       www.jdhp.org/docs/ (waste of space)
+* [ ] Find a solution to avoid "remark/" redundancy in "www.jdhp.org/docs/"
