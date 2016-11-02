@@ -6,7 +6,7 @@
       ...)
 * [ ] Improve the init_skeleton.sh script (add safety checks: are the variable
       defined ? is the skeleton branch already exist ? ...)
-* [ ] Put CSS in a dedicated file
+* [ ] Put CSS in a dedicated file (in "style/html/" like the rst-skeleton)
 * [ ] Split content/main.md
 * [ ] Make the French branch
 * [ ] Write the PDF target in the Makefile (use https://github.com/astefanutti/decktape ?)
