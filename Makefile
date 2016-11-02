@@ -23,7 +23,11 @@ publish: jdhp
 
 #jdhp:$(FILE_BASE_NAME).pdf
 jdhp:
-	### HTML ###
+	
+	########
+	# HTML #
+	########
+	
 	# JDHP_DOCS_URI is a shell environment variable that contains the
 	# destination URI of the HTML files.
 	@if test -z $$JDHP_DOCS_URI ; then exit 1 ; fi
@@ -38,7 +42,10 @@ jdhp:
 	# Upload the HTML files
 	rsync -r -v -e ssh $(HTML_TMP_DIR)/ ${JDHP_DOCS_URI}/$(FILE_BASE_NAME)/
 	
-	#### PDF ###
+	#######
+	# PDF #
+	#######
+	
 	## JDHP_DL_URI is a shell environment variable that contains the destination
 	## URI of the PDF files.
 	#@if test -z $$JDHP_DL_URI ; then exit 1 ; fi
