@@ -2,6 +2,8 @@
 
 ## Skeleton
 
+* [ ] Add a makefile in "figs/" to make/clean figures from scripts (Python,
+      ...)
 * [ ] Improve the init_skeleton.sh script (add safety checks: are the variable
       defined ? is the skeleton branch already exist ? ...)
 * [ ] Put CSS in a dedicated file
