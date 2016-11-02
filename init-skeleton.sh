@@ -36,6 +36,9 @@ git remote rename origin skeleton
 git remote add origin git@github.com:${TODO_DOCUMENT_GITHUB_ACCOUNT}/${TODO_DOCUMENT_GITHUB_REPOSITORY_NAME}.git
 git push -u origin french-version              # TODO
 
+git submodule init
+git submodule update
+
 
 # MAKE SUBSTITUTIONS ##########################################################
 
@@ -67,6 +70,6 @@ sed -i "" \
 DOCUMENT_TITLE_UNDERLINE=$(echo "${TODO_DOCUMENT_TITLE}" | tr '[:print:]' '=')
 
 sed -i "" \
-    -e "s/====/${DOCUMENT_TITLE_UNDERLINE}/" \
+    -e "s/^====$/${DOCUMENT_TITLE_UNDERLINE}/" \
     README.rst
 
